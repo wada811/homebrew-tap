@@ -6,15 +6,15 @@ cask "cmux-list-claude-sessions" do
         writable_paths: ["cmux-list-claude-sessions"]
   end
 
-  version "0.6.0"
+  version "0.6.1"
 
   on_macos do
     on_arm do
-      sha256 "4839c2053ead6ea2483d5bc8c5b22279df4b9c8677cca8c923aa1e7498b57d4e"
+      sha256 "d0b1079b38b1069a6616db1e200380f436adce568b7167d87185dcde52a71974"
       url "https://github.com/wada811/cmux-list-claude-sessions/releases/download/v#{version}/cmux-list-claude-sessions_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "59d8ba26403109460d23cb0ecdad453b01275d496108190d3d442bac45c76a1e"
+      sha256 "789ea802ed8ec8a6ebf1f3a20df324439172c17a871bbdf025e58e7af47f4094"
       url "https://github.com/wada811/cmux-list-claude-sessions/releases/download/v#{version}/cmux-list-claude-sessions_#{version}_darwin_amd64.tar.gz"
     end
   end
