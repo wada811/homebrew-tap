@@ -6,15 +6,15 @@ cask "cmux-claude-ls" do
         writable_paths: ["cmux-claude-ls"]
   end
 
-  version "0.2.2"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "18e3cef72e34a2bb43cfba2f40f94d0c418360cf35b189cacdd06895b3be97ce"
+      sha256 "0ed687ab588369e2faa43d96d16b37d6397fe51b47f99487c024cb886c2aaf68"
       url "https://github.com/wada811/cmux-claude-ls/releases/download/v#{version}/cmux-claude-ls_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "eb748973823e26e20df8a536eccc719b88239854ea1671ae25b3390db0fb17c8"
+      sha256 "dfecdcceb866546dae90d0bc10f539bacb8d497453ffb2e7239ce0064c5065f7"
       url "https://github.com/wada811/cmux-claude-ls/releases/download/v#{version}/cmux-claude-ls_#{version}_darwin_amd64.tar.gz"
     end
   end
