@@ -6,15 +6,15 @@ cask "cmux-claude-surfaces" do
         writable_paths: ["cmux-claude-surfaces"]
   end
 
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
     on_arm do
-      sha256 "982c60006264be3d3723a64c01d42baadd293ecaae3b4c4e52f27bc77f1bd5ea"
+      sha256 "5edd78ceeb06c0fa16090102dc5854d0bbcf5f21cbf72d0a3256b4e8fd0af6bb"
       url "https://github.com/wada811/cmux-claude-surfaces/releases/download/v#{version}/cmux-claude-surfaces_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5f86e77461075cd6490a8ca2ad5b029c2b97fb76a1cbcc263d0bea9a27e8259f"
+      sha256 "d8fbbce5e4ee0c4cb306bac3513117a417669343f4f19cd2db34a9ab28ff48f2"
       url "https://github.com/wada811/cmux-claude-surfaces/releases/download/v#{version}/cmux-claude-surfaces_#{version}_darwin_amd64.tar.gz"
     end
   end
