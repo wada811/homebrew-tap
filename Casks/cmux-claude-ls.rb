@@ -6,21 +6,21 @@ cask "cmux-claude-ls" do
         writable_paths: ["cmux-claude-ls"]
   end
 
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      sha256 "0ed687ab588369e2faa43d96d16b37d6397fe51b47f99487c024cb886c2aaf68"
+      sha256 "8e3c48cbb956f3ed75c9412698aaf79a6cf9517c4fe5ef1a2f84959d05637f5b"
       url "https://github.com/wada811/cmux-claude-ls/releases/download/v#{version}/cmux-claude-ls_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "dfecdcceb866546dae90d0bc10f539bacb8d497453ffb2e7239ce0064c5065f7"
+      sha256 "cf6faec7083d214ae495eca3fc951048805bbd058cf8776d388c9acbc241a051"
       url "https://github.com/wada811/cmux-claude-ls/releases/download/v#{version}/cmux-claude-ls_#{version}_darwin_amd64.tar.gz"
     end
   end
 
   name "cmux-claude-ls"
-  desc "List cmux surfaces that run Claude Code"
+  desc "Find which Claude Code session in cmux is waiting for you"
   homepage "https://github.com/wada811/cmux-claude-ls"
 
   livecheck do
