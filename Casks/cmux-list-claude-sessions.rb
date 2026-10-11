@@ -20,7 +20,7 @@ cask "cmux-list-claude-sessions" do
   end
 
   name "cmux-list-claude-sessions"
-  desc "Find which Claude Code session in cmux is waiting for you"
+  desc "List Claude Code sessions in cmux tabs and find which one needs you"
   homepage "https://github.com/wada811/cmux-list-claude-sessions"
 
   livecheck do
