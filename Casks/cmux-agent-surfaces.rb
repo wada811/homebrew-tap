@@ -6,15 +6,15 @@ cask "cmux-agent-surfaces" do
         writable_paths: ["cmux-agent-surfaces"]
   end
 
-  version "0.12.0"
+  version "0.13.0"
 
   on_macos do
     on_arm do
-      sha256 "06699694d097ccc0e4892b22e2f7230af8be1adeda1396bbc11eaeb2c3884fa9"
+      sha256 "ba05718c43b795f7ef650c9551240d7aacd9b1ed7a57002f1e48a64e3adaa1ce"
       url "https://github.com/wada811/cmux-agent-surfaces/releases/download/v#{version}/cmux-agent-surfaces_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "aa032746c7408008c131bd3e1bda341db510f5ee1ede92fffa5b4601b2aa5df3"
+      sha256 "7b998d5aef4f35b5b85b1bfe7b19272b02a3b20bf2777dab611593590b4f8891"
       url "https://github.com/wada811/cmux-agent-surfaces/releases/download/v#{version}/cmux-agent-surfaces_#{version}_darwin_amd64.tar.gz"
     end
   end
