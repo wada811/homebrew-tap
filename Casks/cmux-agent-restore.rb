@@ -6,15 +6,15 @@ cask "cmux-agent-restore" do
         writable_paths: ["cmux-agent-restore"]
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "5b779a7bfc064607315ba645c609dc95510cb716e2a0225989e77c9b105eee1f"
+      sha256 "1f717ea33634a12e5a64b31a2acf70cf200278a5caa89563f64a228b3dc385c2"
       url "https://github.com/wada811/cmux-agent-restore/releases/download/v#{version}/cmux-agent-restore_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d351b4dabfa6914cc0482374be478f5aa5afe77a09aef3fc83eea842eee74bf9"
+      sha256 "e0aa13c511246214bb844a650655c4a38c027f249e894441623f98332cc97557"
       url "https://github.com/wada811/cmux-agent-restore/releases/download/v#{version}/cmux-agent-restore_#{version}_darwin_amd64.tar.gz"
     end
   end
